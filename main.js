@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       searchResults.innerHTML = '<p>Loading...</p>';
 
       // Fetch data from the superhero API
-      fetch(`http://localhost:8080/https://superheroapi.com/api/57f7b3392dac3effe0845534a683fd3f/search/${query}`)
+      fetch(`https://proxy-project-d19c2a9619ba.herokuapp.com/https://superheroapi.com/api/57f7b3392dac3effe0845534a683fd3f/search/${query}`)
 
 
           .then((response) => {

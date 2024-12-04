@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Fetch superhero data using the /id endpoint
-  fetch(`http://localhost:8080/https://superheroapi.com/api/57f7b3392dac3effe0845534a683fd3f/${heroId}`)
+  fetch(`https://proxy-project-d19c2a9619ba.herokuapp.com/https://superheroapi.com/api/57f7b3392dac3effe0845534a683fd3f/${heroId}`)
       .then((response) => {
           if (!response.ok) {
               throw new Error("Network response was not ok");
